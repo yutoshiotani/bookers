@@ -14,17 +14,47 @@
  *= require_self
  */
  
+
+
 body {
+  display: block;
+  margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+}
+p{
   margin: 33px;
 }
 
 table {
-  display: block;
+  width: 100%;
+  display: table;
 }
 
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+}
+tr{
+  display: table-row;
+  vertical-align: inherit;
+}
 
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
-.field{
+div{
+  display: block
+}
+
+.field {
   display: block;
   margin-bottom: 10px;
+}
+
+.notice{
+  color: green;
 }
